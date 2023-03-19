@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Font/stylesheet.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="modal_bg_remove"></div>
+     <div class="modal_remove">
+         <h1>Вы уверены что хотите удалить из списков студентов?</h1>
+         <div class="btn_modal_remove">
+         <button id="btn-yes" class="modal_btn_b_1">Да</button>
+         <button id="btn-cancel" class="modal_btn_r_2">Нет</button>
+        </div>
+     </div>
+
+    <div class="modal_bg"></div>
+    <div class="modal">
+        <form class="Form-edit">
+            <h3 id="name">Имя:</h3>
+            <input class="modal_input" name="name" type="text">
+            <br>
+            <h3 id="age">Возраст:</h3>
+        
+            <input class="modal_age" name="age" type="number">
+            <br>
+            <div class="btns-edit">
+                <button class="modal_btn_b">Изменить</button>
+                <button class="modal_btn_r">Отменить</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="div-title">
+            <h1>ДОБАВЛЕНИЯ,ИЗМЕНЕНИЕ И УДАЛЕНИЯ ЭЛЕМЕНТА ИЗ ТАБЛИЦ</h1>
+        </div>
+        <form name="creater" class="div-input">
+            <div class="input-name" id='required'>
+                <p>Имя</p>
+                <input type="text" name="name" placeholder="Bruce Reyes">
+            </div>
+            <div class="input-age" id='required'>
+                <p>Возраст</p>
+                <input type="number" name="age" placeholder="24">
+            </div>
+            <button id="btn-creater">Добавить</button>
+        </form>
+        <div class="div-table">
+            <div class="Table-text">
+                <p>No</p>
+            </div>
+            <div class="Table-text">
+                <p>Имя студента</p>
+            </div>
+            <div class="Table-text">
+                <p>Возраст</p>
+            </div>
+            <div class="Table-text">
+                <p>Действие</p>
+            </div>
+        </div>
+        <hr>
+        <div class="div-table-add">
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
